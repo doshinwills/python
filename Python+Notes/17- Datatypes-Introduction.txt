@@ -1,0 +1,17 @@
+Data type tells what type of data a variable can carry and we create variables for example a is equal to 10 in our program,
+That means a can carry numeric or integer by data.
+
+Similarly if we assign f is equal to ten point two three that means f can hold onto floating point or
+decimal type data.
+
+And if we assign a set of characters within double quotes to a variable called S That means s is of type string that is it can hold a sequence of characters or a string type in Python the data types are
+organized mainly into 5 types starting with the none type.
+
+This is an object that does not contain any value.Second are numeric types starting with integer floating point numbers and complex type 3rd is very important
+type sequences as the name itself says.
+
+This type can hold onto a sequence of other data types for example,String is a sequence of characters bytes is a sequence or byte byte array is a slight variation of bytes which
+you will see an action list couple range that can be used in looping statements.
+
+And the last two types are sets which does not allow duplicate and mappings which can be used to map and reduce in the next few lectures you will be seeing all these data types in action and you will
+also learn how to convert one data type into another.

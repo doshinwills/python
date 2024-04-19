@@ -1,0 +1,18 @@
+Process allow us to create our own data types that is user defined data types.They act as a blueprint for our objects just like how we have blueprints when we build houses.
+
+We have the architects provide us with the blueprint and once we have a blueprint we can create any number of similar houses or we can build any number of similar houses.
+
+Similarly in the old of object oriented programming a class represents a blueprint where all the fields
+and methods for a particular object are defined.
+
+Once we do that using that class we can create any number of objects which will have the same type of variables and methods.
+For example here we are defining a class called product with three fields on it.
+
+Now we can create any number of objects of this class as we want.In our application which will have all the three properties but with different values.
+
+And if we define any functionality here like display product details etc. those functionality or methods will be available for all these objects as well.
+
+So a class simply is a blueprint for creating multiple objects it defines all the rules that an object can carry.
+
+That those rules are nothing but the variables or the fields and the methods on that class and object.Once we define a class you can create any number of objects using that class as you will see in the next
+few lectures.

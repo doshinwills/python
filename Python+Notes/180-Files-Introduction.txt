@@ -1,0 +1,45 @@
+Files are where we organize or store our data,this data could be text data or binary data like images video files audio files etc. reading and writing
+to files is very easy in Python.
+
+We use the open method which will return a File object,the open method takes the path to the file or the name of the file as the first parameter.
+The mode in which we want to open the file it could be read write append and more as we learn shortly
+
+as the second parameter and the third parameter is an optional parameter which is buffer this buffer.Is a number is the integer value that we pass in which is internally used to do buffering when we
+are reading and writing to a file.
+
+
+If you don't pass in any number by default 4096 or 8092 will be used by the Python virtual machine.Once we open the file we can read  to it,write to it append to it and once we are done with our work you
+can invoke f dot close so f..
+
+Here is a File object f dot close will close that file for us the mode itself could be W for write.If you use W for the right mode which is to write to a file then if the file has some contents already
+
+all those contents will be deleted and our contents whatever we are writing now will be written right
+from the beginning of the file.
+
+Read mode is to read the file right from the beginning of the file all the way to the end.If or append then use append more the current contents of the file will not be deleted and you can
+add new content to the file at the end of the current contents w+ is for right and read you
+
+
+can do right and read if you open it up.In this mode R+ is ofr read you can do read write and append.In this mode A+ is for appending and reading and there is also exclusive mode to.
+This is you can think of it as exclusive creation mode.
+
+Once you open a file in this mode a new file will be created for you exclusively,and if a file already exists with the same exact name then an error will be thrown.
+If you are dealing with binary files all these modes work with text files.
+
+If you are dealing with binary files then you just have to append B at the end of each of these mode so files are where we store our data reading and writing for two files.
+It's very easy in Python.
+
+
+Use the open function which takes three arguments.
+
+
+The third argument buffer is optional.
+
+
+The first one is file name or file path
+
+
+The second one is the mode and you have learnt about the different modes write read and append W+ A+ R+
+
+
+and exclusive creation mode.

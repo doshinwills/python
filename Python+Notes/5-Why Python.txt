@@ -1,0 +1,27 @@
+In this lecture you will learn a few more advantageous of Python or why you use Python.You've already learned that Python gives us a very easy to learn and use syntax making the life of
+
+a developer a super easy to build applications,Secondly the performance of the applications developed in Python is super good because Python is a
+interpreted language.
+
+There is no additional step of compilation.We can quickly develop our applications because Python comes with a lot of inbuilt modules that can
+be used to build our applications.
+
+We need not code everything from scratch.There is a lot available in Python itself.That can be used. Fourth just like javascript, Python is dynamically typed.
+
+That is we need not specify what datatype we are going to assign a variable depending on whatever data we assign.
+
+Python will dynamically decide what type of data that variable is carrying forth for any open source framework or language,
+It is very important that it has a good following and Python has a huge community.
+
+So at any point if we have to work on something new in our application and if we need some support from python then we have a huge community of developer to rely on.
+Last but not the least third party libraries.
+
+This is where Python is called batteries included because Python can easily integrate with any third party library for example.
+cherryPy  is object oriented. http framework.
+
+Similarly Boto is a library that can be used to work with Amazon Web Services while working with python applications.
+
+If you want a complete list of these you can go to Python anywhere dot com slash batteries underscore included pythonanywhere dot com slash batteries underscore included hit enter and that will list out all the packages
+are libraries that you can use while working with python there you go.
+
+It has tons of libraries to work with other third party modules alabaster Alembic so you can use any of these as required follow it up application.And here again see what they are used to for. You see Boto here its for amazon web services.

@@ -1,0 +1,11 @@
+This section you will master the various flow control statements flow control determines the order in
+which the statements are executed at runtime.
+
+They are categorized into conditional statements.iterating or looping statements and finally transfer statements the conditional statements allow us to execute
+
+our code conditionally starting with IF statement that checks a condition and evaluates the statements or runs the body of the if else if else ladder or if elif.else where we can have multiple conditions
+the looping statements allow us to execute the same set of statements or logic multiple times the two 
+
+
+loops that are available are while loop and for loop.Last but not least the transfer statement as the name itself says allow us to transfer the control of our program from one from one place to another starting 
+with break continue pass and return.We will be using most of these statements in this particular section and some of them in sections later on.

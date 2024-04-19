@@ -1,0 +1,96 @@
+Now that we have learned the various basic and sequence types in this lecture, we'll summarize them all in sections later on, he will be working on several programs using these right click new file call
+it summary dot py
+
+Start with the integer type A is equal to 20, represents a integer value, and I'll talk about the mutability and immutability only for this data type and i will summarizes the durability of other data types as
+well if v defined B is  equal to 20 print ide of a comma ide of B run the program you see that they both
+
+will point to the same memory location because they both are using the same value.And you already know that if you point B is equal to 30.
+Now if you run the program, they will point to two different memory locations.
+
+That is immutability when you try to assign a new value or change the value that is assigned to a variable,a new memory will be created and that will point to that memory location and the value will be put into
+that.
+
+Let's move on to the next step, which is float, which represents the decimal point number three,point one four like that.
+
+And complex values can be represented using complex type, say, five plus three J here five is the real part and three is the imaginary part in a complex number.
+If you want to print that out, it has properties on it.
+
+The complex type object has properties called Real and imag for the imaginary part.IMAG save it rerun the program to see that real part, which is five and the imaginary portion, which
+is three.
+
+You can use the bool type to represent true or false.You already know that I'm skipping.That string type can represent the string data s is equal to within single or double calls.
+You can have a sequence of Characters.
+
+If I print that type function can be used to know that type of a particular data or variable if I run it.
+
+It is of type STR.Everything in Python is a object.All the types, the objects next is the bytes.So to represent bytes first let's create lst.
+
+A lst is equal to within square brackets one comma two comma  at requirement for comma five create a byte array is equal to.
+
+Let's start with bytes not the byte array The bytes method pass it the  the LST and we get bytes back if you print the type of IT.
+Type of B ran the program, you see it is off type bites.
+
+So so far, whatever you have seen up to bites, all the basic types and the bites types are immutable.If you try bite array next, it will see that it is mutable type.
+So create a bite array using the same list which we have up to create a battery we use B A is equal to the bite array
+
+And pass it bite array and pass it the LST uptop.The difference between bytes and byte at is that byte array is immutable,
+You can make changes and all that, but if you try to change the bites, it will allocate a new memory location, just like the basic types.
+
+
+Now, if you print that type of B A series of type bytes array a next range, which can be used to specify a range range can be like that range of 20 range.
+
+We can also pass starting an ending one to 10 range of one comma 20 or 30 come up.The steps in which it should happen can also be specified.Range is also immutable type.
+
+
+If you try to make changes and new memory location will be created and if the same range is being used,if it is being assigned to R, one is equal to that and then R two is equal to range of 20, the same
+will be reused.
+
+They both will point to the same memory.Location range is also immutable next to that list, which is quite simple,
+You already created a list here, popped up right here before.
+
+Right that so you can if you want, you can print the type of LSD round the program and you will see,that somewhere here last year.
+
+I printed the list, I didn't want to print the list, I want to print the type of list server, run
+it now you see that?
+
+So it says it is off my list.So square brackets is for a list or type list is a sequence of ordered elements to represent a collection
+of objects we can use it list a table is immutable.
+
+
+The difference between a list and tuple is that a table is immutable, whereas a list is mutable.So to create stability is equal to you, use the regular parentheses.
+One, two, three, four, five.
+
+
+That makes it double if you bring the type here.Type of P.And the program that set up all time, remember, by people, is immutable, you cannot directly change
+the elements within a table.
+
+
+Also, if you try to assign a table to a new set of people, the memory will be created again.A new memory allocation will happen.
+
+
+A set can be used to represent an unaltered collection of unique objects.A list is ordered and it doesn't carry unique objects.
+
+
+You can repeat the objects in a list, whereas a set X is equal to within in brackets.You can have only unique values here one, three, four, five, six, etc..
+That angler bracket to represent the set print s 
+
+Run the program.And I wanted to bring that type of has not this.Run it.Let's try adding duplicates here.Five, comma , five, save it run the program you still see let me take out the type or let me bring
+the set.
+
+Then let me take out the type from that.let and the duplicates are gone.set will take care of it for us, a couple more to go.
+We have the frozen set, which is immutable.
+
+
+The difference between set and frozen set is set is mutable, whereas frozen set is immutable.You will create a frozen set from set fs is equal to frozen set is the function opposite the set
+we have created already and we will get a frozen set print type.
+
+
+Of s run the program that is frozen, so knowing what is mutable and which is immutable is important in most cases by looking at the name itself, it will know whether it is mutable or immutable.
+
+
+And the last powerful type is the dic object that name Value pair, which allows us to store data as name value pars D is equal to within angular brackets, the name of the student or the idea of the student
+colon his exam marks hundreds of hundred two colon and ninety comma three colon 89 and so on.
+
+
+So this is of dic type d save it run  the program and you see there it is a dictionary type.As I said already, you will be using all these stripes and developing various programs in the next
+few lectures as you learn conditional statements and some advanced syntax.

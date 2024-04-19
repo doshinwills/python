@@ -1,0 +1,36 @@
+Exhibitions are runtime errors.that is when our Python program is executing.
+If something goes wrong in our application an exception is raised and if we do not handle the exception
+
+correctly in our application it will cost three things.Our program will terminate abruptly right in between wherever the exception is raised the program will
+stop right there and the code after that line will not be executed.
+
+Secondly the Python virtual machine will display the unfriendly exception information to the end user.The user might not even understand what the exception is and what it means.
+Thirdly if we have resources like database connections or file streams or network connection we have
+
+opened up in our application and if we are not closing those connections before the part where the exception is raised in our application then those will not be shut down or closed.
+
+So we need to handle exceptions in order for these three not to happen in our application.In Python exception is represented using a class there are different types of inbuilt exceptions that
+
+we can use in our application as well as we can define our own exception types and use them for our business needs.
+
+To handle an exception we will wrap the code which might cause an exception inside the try and except block. So if this code here raises an exception the execution will go to this except block will handle the
+exception here by displaying a user friendly message and the code execution will then continue after the except block if we have a lot of lines of code after this except block the PVM will run that code
+that will not happen.
+
+
+If you do not use this try and except if you don't have these two the code the execution will stop right where the exception is thrown.
+
+Optionally the try and exception also have a else block which will be executed if an exception is not raised.So if an exception is raised it goes to except if it is not raised it will go to else and one more important
+block is.
+
+Finally as the name itself says finally will be executed no matter whether there is an exception or not.
+So if have code like resource closing or resource shut down very well closing database connections files or network connections etc..
+
+All the cleanup code can go into the finally block because it is executed no matter whether an exception
+is thrown or even if an exception is not thrown.
+
+So here the zero division error is a inbuilt exception class in Python and we are handling that exception in this except block.
+We can handle different types of exceptions by having different except blocks or If we remove this zero division error here that block can handle any type of exception.
+
+So to summarize,an exception is at runtime error which will cause three issues if it is not handled to handle those
+three issues will have to handle the exceptions using tri and except  block.

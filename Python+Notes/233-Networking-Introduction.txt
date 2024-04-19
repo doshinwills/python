@@ -1,0 +1,11 @@
+In this section you will learn how to connect to a URL and access the resources that URL and download
+them.
+
+You will also learn how to download images from the Internet or by connecting to a particular URL
+using URLlib module in Python.
+
+you will also do socket programming that is low level programming by establishing a connection between
+the server and the client through the socket module.
+
+And last but not the least you will send out e-mails by creating a python email client using the SMTPlib
+module.

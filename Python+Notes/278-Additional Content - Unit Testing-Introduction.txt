@@ -1,0 +1,32 @@
+In this bonus section, you  will learn how to create and run unit tests in Python, for example, here we have the credit card validation script where we have a validate card function, which takes a date
+and it prints or returns valid if the date is valid and it will throw an exception or print the value
+
+to the console if it is invalid, if the card is invalid,now, to test this, instead of invoking this function manually within this script and then running
+it and manually checking the console will be writing unit tests, which will be another Python script.
+
+We use the  unit test module from Python, which is inbuilt into Python,This is closely based off Java J unit and a few other testing frameworks and it makes our life super easy.
+As you write, these units over time these unit test  will be a part of your project.
+
+And when your project is built, these units will be automatically run to validate all the code you are writing,Instead of we manually checking if the code is working, these unit tests  will automatically test all the
+code and make sure that our project is ready for production.
+
+So to write a unit test, you import a unit test module  first, you will  create a python file of its own and then you import the unit test module.
+
+You create a class which extends or inherits from the test case inside the unit test module, and then you create any number of test functions here.
+I have  two test functions which  start with a test underscore always the test functions, start with test,
+
+underscore and then whatever name you want for valid scenario, i  have  one scenario  test where I pass in the valid date for a credit card and instead of printing and checking the console, we use the assert  functions
+that are available in this test case class.
+
+
+So we get all these assert  functions for free.You can assert  for a particular equality, you can assert  for exceptions,and there are several other assertions that are possible.You can assert  for a sequence as a four tuple map and so on.
+So it's that simple to create unit tests , import the module, create a class, implement as many number of test functions you want for valid scenarios, exception scenarios ,negative  scenarios and so on.
+
+And this testing framework also supports lifecycle methods like set up and tear down.The set up method is invoked before every test function is invoked.
+The tear down method is invoked after every test method is invoked once for every test so that you can do any data initialization or collection initialization inside the setup method and you can clean it
+up inside the teardown method so that one test data will not effect an other test.
+
+In then the next few lectures we  will write test for this.Credit card validation program you have  created earlier will slightly tweak it instead of printing the results
+
+to the console  will change it so that it will return the values and it will raise exceptions  as well.Then you create the script, create this class, implement two test functions, use the assertions  
+and also define the set up and tear down  methods.and you will also learn how to run the test by using this block at the end of it.

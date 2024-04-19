@@ -1,0 +1,13 @@
+Regular expressions also known as REG X are a bunch of characters or a pattern that will create to searchfor a string within a given string or to validate the given string to see if it follows the given pattern.
+For example we can use a regular expression to validate the email that is entered by the user a password
+
+that the user enters etc Or we can search a given string for a sub-string using the pattern we define using some special characters.
+
+As you can see here backward slash the plus means one are more digits.you will learn more about how to create regular expressions in the next few lectures in python we use the
+
+the regular expression module which has several useful functions like Match search find all splitand substitute which will find a sub-string within a given string and it will replace all the strings
+that it finds with the string which we give.
+
+
+So we're going to explore all these functions in the next few lectures but remember regular expression is a bunch of characters or a pattern that we create to search for a sub-string within a given string
+or to validate a given string such as email or password information.

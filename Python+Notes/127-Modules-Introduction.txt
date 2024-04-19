@@ -1,0 +1,5 @@
+Every Python script or Python file is a module.It is nothing but a group of functions, variables and classes saved to a file which can be reused
+across various other modules in the next few lectures.
+
+You will create your own module, simply a Python script.Use the functions from that module in another module by importing it.
+And also we will explore a few inbuilt modules like the math module and random module.

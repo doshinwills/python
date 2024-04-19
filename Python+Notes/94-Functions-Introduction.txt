@@ -1,0 +1,40 @@
+In this lecture you will know what a function is and why we need to define functions.Function is a group of statements which perform a particular task.
+
+For example we have already used a couple of inbuilt functions like input and print and these functions.Each of these perform a particular task input function will have internally the python developers which
+
+would have added all the statements of code that will allow us to read the input from the end user
+and use it in our program.
+
+
+Similarly the print function will have all the code that is required to write whatever we give to print it onto the user's console.
+
+So a function performs a particular tasks and it have a group of statements that do it similar to these inbuilt functions.
+
+We can also create our own user defined functions which will perform at particular task in our application.
+This task could be processing data processed data that takes data and processes it or it could be a
+
+mathematical calculation that calculates sum and So on the logic and the requirement that these functions need to handle could be anything but always
+
+remember that a function is a group of statements that will perform a particular task they're advantageous
+functions are three mainly number one re-usability once we define a function and the statements inside
+
+
+it those statements need not be repeated at any other place in our application we can simply  that function.we can or call that function and that particular logic will happen for us.
+reusability is number one advantage of using functions.
+
+
+Second modularity when we are working on a huge application we need not put the entire code in one single scor a function.
+We can define multiple functions which will make our application modular as a developer
+
+We can split or divide a problem and conquer it by dividing it into multiple functions and each function
+will then use the other function to solve the problem.
+
+Last and very important to the modularity brings in easy maintenance.If a problem happens or if we need to make any changes to an existing functionality it is very easy
+because we can just focus on a particular function or a couple of functions that have caused the problem oran issue and fix them.
+
+
+Or if we are adding something new we can just go to a particular function wherre that change needs to
+happen and we can add that functionality easily.
+
+
+So re-usability, modularity and maintenance are three important advantages of functional programmingor creating functions.

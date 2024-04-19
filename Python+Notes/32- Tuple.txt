@@ -1,0 +1,18 @@
+In this and the next few lectures, we will learn what a tupple is and how to use that tupple data structure
+at tupple  is just like a list data structure, except for it is immutable meaning once we create a tupple of elements, we cannot modify the tupple.
+
+So we use the tupple when we have a requirement in our application where we want a read-only list, a
+list that should dot be modified by our program once it is created a.
+
+tupple maintains the insertion order and we create a tupple , within which are we other elements that
+will be the order that will be retained if it allows duplicate elements.
+
+And we can also add different types of elements.That is heterogenous elements.
+
+We can add integer strings, objects, everything to a tupple,We create a tupple using parentheses and the elements will be separated by commas.
+The brackets are the parentheses are optional, but it is recommended that we use it as it is much more
+
+readable, and if we have a tupple with just a single element, we should always end it with az comma,Otherwise, it will not be treated as a tupple.
+It will be treated as a single element variable.
+
+So remember, tupple is immutable,Once we create a tupple, we cannot do any changes to the elements in the tupple.

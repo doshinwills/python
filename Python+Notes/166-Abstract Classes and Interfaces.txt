@@ -1,0 +1,24 @@
+Using abstract classes and interfaces we can define a contract for our child classes that is if I have a class called BMW and If we define an abstract method an abstract method will not have
+any implementation and it will be marked with at abstract method decorator.
+
+Once we do that any child class that extends or inherits this parent class will have to implement this drive method.If it doesn't implement the drive method will provide a implementation for it then that class will also become an abstract class and you cannot create an object of abstract class it exists to just provide
+a contract for the child classes.
+
+You can havemethods in an abstract class that can have implementation but typically at least one method in abstract class is a abstract method,
+If all the methods are not abstract then you can create an instance of the class it is not abstract
+
+
+or if at least one method in a class is an abstract method then it becomes an abstract class and the child classes which implement that abstract class should provide an implementation for all the
+abstract methods that are in the parent class.
+
+
+So here we are defining a contract called drive and all the cars three series five series and more which extend this BMW should implement the drive method using the exact number of parameters.
+If we define any parameter so the method signature should be exactly the same and it should provide the implementation
+
+for it.It's mandatory for a car to be driven.We implement abstract classes by using a class called A B C for abstract class.
+ABC stands for abstract class. It is from ABC Module.
+
+You will learn how to use that in the next lecture and also interfaces are nothing but abstract classes where all the methods are abstract.
+
+So unlike other programming languages like Java where we have a interface keyword and then we implement an interface in Python a interface is simply abstract class where all the methods are abstract.
+So none of the methods will have implementation that's nothing but a interface.

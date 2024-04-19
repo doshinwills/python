@@ -1,0 +1,4 @@
+In this lecture you will learn what the four key object oriented principles are,They are number one encapsulation inheritance abstraction and Polymorphism.
+
+These four principles are not only present in Python but they are common across any object oriented programming language like Java, C++ etc. and we implement these four features using classes and objects
+which we will explore in the next few lectures and sections.

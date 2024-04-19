@@ -1,0 +1,27 @@
+A lambda is an anonymous function that will not have any name when we define a function in python we do it using the def keyword followed by the name of the function then the argument list followed by
+the body of the function within which will have multiple statements.
+
+And at the end in some cases we return a result back.If this same square function that takes an argument and calculates the square of a number has
+to be expressed as a lambda expression this is how simple it will look like the syntax for creating
+
+a lambda expression starts with a lambda keyword not a def keyword followed by the argument list colon the logic or the expression that needs to be evaluated and this expression will use the arguments that
+are provided.
+
+
+Unlike a function lambda will always return a function back.This lambda expression will return a function that will calculate the square of given x.
+So we need to assign that to a function and invoke that function as follows.
+
+
+And then we'll get a result back.In this case, the square of 10 will be hundred but we rarely use lambda as follows.
+We will not be.
+
+
+We can use it like this by assigning it to a function and invoking it but lambda expressions are very helpful when we use them inside other functions.
+For example, we have functions like filter map and reduce which you will be using in the next few lectures which will take a list and a function and will apply that function to every element in that list.
+
+
+So instead of creating a function and then invoking that function you will simply define a lambda expression right inside filter when you invoke this function right when you invoke map.
+
+
+You can express lambda expression.Similarly you can create a lambda expression when you invoke reduce dynamically without creating a function.
+Separately you will see all that in action and create lambda expressions in the next few lectures.

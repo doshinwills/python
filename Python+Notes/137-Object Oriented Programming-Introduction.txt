@@ -1,0 +1,43 @@
+What is object oriented programming if you look around yourself you already know the answer you are
+using your computer or some other gadget to access this course.
+
+Via your Wi-Fi router so the computer is an object that accesses the wifi router.And we can look at ourselves as an object as well.
+
+Another example is we as an object accessing an atm machine at the bank the ATM machine in turn accesses or communicates with the banking server to get the job done.
+So this world is full of objects that work with each other or communicate with each other.
+
+If we take a real life example where we have two Person objects John and Mary these objects will have trades or properties like age, weight, qualification and behavior like looking at each other speaking
+to each other.
+
+So at any point the objects in this world will have a identity and name properties or variables functionality or behavior,
+three important things.
+
+
+The objects communicate with each other using their functionality or behavior which are nothing but methods in programming languages.
+
+
+And when they do that communication they exchange the information via  properties or variables.The main advantage of object oriented programming languages is that it's very easy to represent real
+world problems.
+
+When we develop software solutions using the object oriented programming languages.For example if you are working on a e-commerce website or an online shopping Web site like Amazon or
+eBay What are all the objects you can think of.
+
+
+The first one customer order product address payment of course and shopping cart and more.So all these objects in the real world problem that we are working on can be easily represented in the
+software solution we create.
+
+We represent them as objects in our solution and then we can connect those objects and come up with a solution.the in the same manner if we are working on a hospital management application what are all the objects
+you can think of.
+
+Yep patient ,appointment,  doctor, prescription,billing ,claims and more.Again all these objects which exist in a real world hospital management problem can be represented
+as objects in the solution.
+
+
+We create so object oriented programming language will make it easy for us to represent the real world problems in the solutions we develop.
+this world is full of objects which communicate with each other and the three important things every
+
+
+object will have is the identity or name properties or variables and the functionality objects communicate
+
+
+with each other through the functionality and they exchange data via properties or variables.

@@ -1,0 +1,72 @@
+So far whatever Python code we have written is all single threaded. And the Python virtual machine behind the scenes uses a thread called the main thread to execute the code which we have written.
+If we do not have any other threads,
+
+if you are not creating any other threads in our application except the main thread, then they are called single threaded applications.
+But to make the best use of the underlying processor and to improve the performance of our application,
+
+we can create multiple threads that can execute in parallel. Making the best use of the processor and also our application will give the best user experience, it will be very fast.
+So to create multiple threads in our application, there are three ways to do it in Python.
+
+
+The first way is to use a function. We'll define a function just like how we have been defining so far and then we'll create an object of type thread.
+To that object we'll pass the target which is the function we have created, the name of the function.
+
+
+The second argument here is the arguments to that function.Once we do that, we invoke t.start, this thread instance dot start.When you do that, the Python virtual machine will create a new thread that will run in parallel with
+
+
+the main thread and as a part of the thread the code within this function will be executed and the arguments are passed to that function.
+So using a function is the first way.
+
+
+The second way is to extend the thread class. This Thread class again is from Python, threading module. We'll
+import that module, extend the Thread class.
+
+
+The second step is to override the run method.this Thread class has a method called run.
+
+You will override it and inside that method you will define all the functionality you want inside your thread.
+
+And then you will create an instance of this class, myThread and invoke t.start. That again
+
+
+will spawn off a new thread and it will execute the run method internally. The Python virtual machine knows
+
+how to do that, to create a new thread and to invoke this run method.
+
+
+The last approach is the hybrid approach, where you will create a class.
+
+
+You will also add any function you want within that class, but this class does not extend the Thread class.
+
+
+Instead you will create an instance of the thread and then pass the object dot
+
+
+display, the function which you want to execute within that object as the target and the arguments is
+
+the second parameter.
+
+
+So the three different approaches are using a function,
+
+
+passing that function name to the Thread classes instance, then invoking the start method.
+
+
+Second approach is to create a class that extends the Thread class from the threading module,
+
+override the
+
+run method, add all the code you want to execute as a part of the thread inside that run and then invoke
+
+t.start
+
+Or simply create a class, define functions, create the object of that class, pass the function name along
+
+with that object as a target to the thread instance and then invoke t.start. When you invoke t.start,
+
+always remember internally the Python virtual machine will spawn off a new thread and it will execute
+
+all that code inside these functions as a part of that thread.

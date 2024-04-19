@@ -1,0 +1,15 @@
+In this section you will learn how to connect and execute sequel statements against a database.We do that using connectors every database whether it is my sql or Oracle there is a respective
+connector we need that to install and once we have that connector we can easily connect to the
+
+database and perform the crud operations namely create read update and delete against the database tables so the following will be the steps which you will be using in the next few lectures to connect
+
+and work with my sql database.The steps will remain the same no matter which database you are working with,the first step is to install the appropriate connector.
+
+In our case it will be the My sql  connector.if you are working with Oracle We will install the Oracle connector which is a one step process,
+its a single command.
+
+Once we have the Connector will import that module into our program.Use that connector to create a connection against the database using the connection will create a cursor
+object.
+
+The cursor is the key.Using the cursor we can execute all the sequel statements like inserts select update etc. whatever data
+you fetch by executing a SELECT statement that data will go into the cursor and then we can fetch that data as required.

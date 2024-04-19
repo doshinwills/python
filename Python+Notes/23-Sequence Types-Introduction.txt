@@ -1,0 +1,8 @@
+The list can store any number of values or objects dynamically and it maintains the order of them,
+The set on the other hand does not allow duplicates.
+
+We can use a set to store any number of values again dynamically and these two have a lot of methods
+to deal with how to add elements how to remove elements etc.
+
+Dictionary is a map that is dictionary can be used to store key and value pairs and it has a separate set of methods to deal with keys and values.
+So we're going to work with lists, set's, dictionaries and more in this section.

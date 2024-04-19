@@ -1,0 +1,40 @@
+In this lecture, you will learn the concept of immutability and how it applies to all the python basic types when you define a variable, say, A is equal to 10, the Python runtime or the PBM will allocate
+the memory for this and store the value 10 and they will point to it.
+
+Now, if you define B is  equal to 10 or declare B is  equal to 10, we expect that that Python runtime will once again allocate the memory location for this and it will store the value 10  in it.
+But that is not that case.
+
+The Python runtime will check if the value 10 the content of some memory location is already 10.
+
+If it is, it will point this variable to the same memory location instead of reallocating or allocating
+the memory again, saving us space.
+
+Now you can ask me what happens if I switch the value of B to 14? Will it affect A?
+No, that is where the immutability comes in.
+
+Once you try to change the value of LRB to some other value, at that point, the Python runtime will allocate a new memory location where the new value will be stored and that variable will point to the
+new memory location.
+
+That process is called immutability, where you cannot change an existing memory location.Instead, a new location will be allocated and then the variable will point to that as a result, if
+you have many variables in our program carrying the same content will reduce the same memory location instead of wasting the space of memory.
+
+So let us see that in action and in the process, we will learn a few other operators create a new file called immutable dot by all the basic types are immutable in Python.
+Start with a is equal to twenty, B is equal to twenty.
+
+To prove my point, I'm going to say print A is B, so this is tells us if a same as B, the both point to the same memory location and as Python run and that returns true.
+
+To prove my point further, I can print the memory locations. If you use the id function and give it a  object, it will print the memory location of that object
+id of A id of  B run the program.
+
+You'll see that they both point to the same memory location, the object a and  object B copy that paste it.You can try it with other trypes like boolean complex type, any type.
+Let me prove it with the true and true.
+
+Id of A, yeah, I'm using the same variable names, if you want, you can change the variable names. Let me run that program.See that they point to the same location and this is returns true now, if I change this to false,
+
+instead, the memory locations will be different.Different memory locations.This is the case with string type as well, the sequence string A is equal to within single cords.
+If I use my own first name and the first name here as well, ran the program for string, see that it returns.
+
+True, both the strings point to the same memory location in case of Java programming language.We have this concept of immutability only with the string type, not for all the primitive types, but
+in Python.
+
+all the primitive types are also object types and immutability applies to all the primitive or basic types as well.

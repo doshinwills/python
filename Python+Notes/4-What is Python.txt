@@ -1,0 +1,13 @@
+What is Python. Python is interpreted functional and object oriented high level programming
+language.
+
+It has a very easy to learn syntax which will make our life as a developer easy to create and maintain
+Python based applications we can rapidly develop python applications because it comes with several inbuilt
+libraries or modules which can be used to come up with the functionality we want for our application.
+
+So to summarize Python is interpreted so it is very quick.There is no compilation step.
+
+And also it is both functional as well as it supports all the Object Oriented principles.
+
+It's very easy to learn Python because of its syntax and we can also Develop applications quickly because
+of its in-built modules or libraries.

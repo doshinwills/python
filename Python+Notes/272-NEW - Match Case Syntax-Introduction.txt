@@ -1,0 +1,26 @@
+Python 3.10 introduces the matched case syntax, which is similar to the switch statement in severalprogramming languages.
+You're going to master this syntax in the next few lectures.
+
+You define a match case using the match keyword followed by the pattern, and you will define various cases within that match.
+
+Whichever case this pattern matches,That case will be executed.the instructions or the statements within that case will be executed.
+You can put any amount of code within each of these cases, whichever case.
+
+
+This pattern matches that will be executed,in this example here X is equal to five, so none of these cases will match one four, two, three will
+not match the value of X, so this default case will be executed.
+
+We define this default case or the wildcard case using underscore, underscore matches all the values.So if none of these cases cases match, then automatically this wild card case will be used and whatever
+
+
+code we put here will be executed in other programming languages, we default.We use a default statement, but in Python we use the wild card underscore.
+So if a case is matched, only the court within that case will be executed.
+
+
+If none of the cases match, then it will go to the wild card case, which we define using the underscore.We can also have multiple optional cases using the pipe symbol here.
+
+
+If the value of x is one or the value of x is four, this case will be selected.Also, we can use lists.
+
+
+As cases, and you can use constants defined using a class within your cases as well.You're going to learn all of that in the next few lectures.

@@ -1,0 +1,9 @@
+When we build interactive software applications.we want the end users to enter some data or to input some data that our application will use.
+
+And at some point our application will send some data back to the end user or display some output to
+the user.
+
+So to perform these two input and output operations in a standalone Python program we use the input function and the print functions respectively in the next few lectures.
+
+You will see the different variations of these two how to format that data as well as how to deal with different types of data while using the input function and the print function to input and output data 
+from it from and to end user.

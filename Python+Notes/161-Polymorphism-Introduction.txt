@@ -1,0 +1,13 @@
+What is polymorphism poly means multi and morphic means shapes in the world of object oriented programming.this shape is replaced with behavior that is if we can  have different types of behavior or different
+
+
+behavior based on the data or the objects that the functions are dealing with then that is nothing but polymorphism.
+
+There are different ways in which we can implement polymorphism in Python,the first way is using duck typing.
+
+
+The second way is using duck typing to do dependency injection and we're already used  the plus operator had it is overloaded to perform multiple operations and it works with numbers.
+
+
+It behaves differently with strings it behaves differently and less it behaves differently that is nothing but Polymorphic,and finally method overriding is also kind of polymorphism which 
+is runtime polymorphism So you're going to see all these in action in the next few lectures.

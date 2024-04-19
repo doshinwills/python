@@ -1,0 +1,21 @@
+In this lecture you will learn what command line arguments are why we need them and how to read and use them.
+
+The command line arguments are those arguments that are passed when our Python program is run.For example Python my program Dot PY  and here are a command line arguments that we can pass in to this
+particular script and then we can use these values inside the program.
+
+The main uses of command line arguments could be passing in a file location which we can dynamically pass in when the program is run instead of hard-coding a location inside our Python script.
+We can passin a file location as a command line argument.
+
+Similarly a database name or a connection URL can be passed in using a command line argument or it could be a remote IP address to which we want to connect from within our python script and so on all these
+values can be passed in from the command line when we run our Python program and these values are passed
+
+by the python run time to our program through a list called argV.This list will contain all the arguments that are passed in and this list is inside the sys module in
+Python.
+
+So to access the elements we can use sys dot ArgV were sys is the model which is the inbuilt module is the list which contains all the arguments for example to access the first element or the
+first command line argument.
+
+I will use sys dot argV.We will learn how to pass in command line arguments and also read and use them in your program in the
+next few lectures but will not be running our Python program like this here since we are using pydev or eclipse.
+
+We will be able to pass in command line arguments using the beautiful eclipse IDs UI that it provides.

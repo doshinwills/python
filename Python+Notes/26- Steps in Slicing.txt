@@ -1,0 +1,22 @@
+One last and important piece of slicing is passing a step value which is the third value that we can
+pass to slice.
+
+When we do slicing print s of zero colon and nine colon we can pass a step value which could be any number say 2 by default the step value is one that is if we go from one value to the other or one character
+to the other character in the string but if I give steps off to let's run the program and see the output it will do the alternate characters here.
+
+So it will jump two at that time,It starts with why then it goes to you.
+It dumps the space goes to a jumps r goes to the e jumps the space goes to a and that is what you see in the output.
+
+You can also change this two steps of three if you want.You can also use negative values starting from the end so s off,
+I want to start from 15 all the way at the end.
+
+I'm not giving any starting value minus 1 so it will come from the end all the way to the beginning,
+Because I'm using a minus one.So it's in reverse order.
+
+run it and it will reverse our string,If you notice it it is emosewa era uoY another easy way instead of specifying this or the length of the string.
+We can omit it to reverse a string using slicing.
+
+We can simply use s off colon colon minus one that will automatically reverse the string because we are using a negative value it knows that it has to decrement it and it has to do that by starting
+at the end of the string all the way to the beginning.
+
+Run it and that will reverse the string as well. So in this lecture we have learned how to use a step which is very powerful.
