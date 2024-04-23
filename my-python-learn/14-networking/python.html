@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html title="infoblox-redirect-page">
+<head>
+	<title>Authentication required</title>
+	<link rel="icon" type="image/x-icon" href="/smart-proxy/resources/favicon.ico" sizes="any" />
+	<link rel="icon" type="image/svg+xml" href="/smart-proxy/resources/favicon.svg" />
+	<style>
+		a[_ngcontent-c12]{color:#337ab7;text-decoration:none}body[_ngcontent-c12]{margin:9;font-size:14px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}h1[_ngcontent-c12]{font-size:24px;margin:0;color:#25598c}.redirect-page-header[_ngcontent-c12]{height:93px;border-bottom:8px solid #2a67a0;background-image:url(/smart-proxy/resources/background.png);background-position:100% 0;background-repeat:no-repeat;padding-top:28px}.col-md-8[_ngcontent-c12]{width:66.6666666667%;float:left;position:relative;min-height:1px;padding-left:15px;padding-right:15px}p[_ngcontent-c12]{color:#000;margin:0 0 10px}.bold[_ngcontent-c12]{font-weight:700}.infoblox-logo[_ngcontent-c12]{width:240px;margin:0 15px 20px}.message-block[_ngcontent-c12]{color:#000;margin:20px 15px}.infoblox-text[_ngcontent-c12]{margin:20px 15px 10px;font-weight:700}
+	</style>
+	<script type="text/javascript">
+		function loader(){
+			document.getElementById('codeViewer').addEventListener('click', function () {
+				element = document.getElementById('code');
+				element.style.display='inline';
+			});
+			var ibFooter = document.getElementById('infobloxFooter');
+			if (ibFooter != null) {
+				ibFooter.style.display='none';
+			}
+		}
+	</script>
+</head>
+<body onload="loader()">
+<div _ngcontent-c12=""> 
+	<div _ngcontent-c12="" class="message-block"> 
+		<p _ngcontent-c12=""><!DOCTYPE html>
+<html>
+<head>
+  <title>Access Blocked</title>
+  <style>
+    body {
+      font-family: 'Aeonik-Regular','Helvetica Neue',sans-serif;
+      text-align: center;
+      margin: 50px auto;
+      overflow: hidden; /* Prevent scrollbars caused by the animation */
+      background-color: #191919;
+    }
+    .container {
+  width: 600px;
+  height: 300px;
+  background-color: #F6F1E7;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+    h1 {
+      color: #000000;
+    }
+    p {
+      color: #000000;
+      margin: 20px 0;
+    }
+    .image-container {
+      margin-top: 50px;
+    }
+    img {
+      max-width: 300px;
+      align-self: center;
+    }
+
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: -45px;
+        left: 5px;
+    }
+    #okta{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #lead { position: relative; float: left; clear: both;
+        width: 100%; height: 300px;
+        background: #dbdbdb url('https://brandfolder.com/okta-brand/attachments/embed/phsmnpvg7rhrz47rrxhgvgq?resource_type=Brandfolder&frame=auto&animated=false&loop=false&muted=false&autoplay=true') center no-repeat; }
+
+
+  </style>
+</head>
+
+<div id="content">
+    <img src="https://cdn.brandfolder.io/R30ALRIS/at/w5v4bmvn99vprvghx6h5g57k/Okta_Aura_CMYK_White.png" class="ribbon" alt="okta logo" width=70 height=70/>
+    <div></div>
+</div>
+<center>
+<p><img  src="https://cdn.brandfolder.io/R30ALRIS/at/fhr7cs6gxj8bkhp9gxvhfg/Okta_Wordmark_CMYK_White.png"
+  width="150" height="76" id="okta" ></p>
+<body>
+  <div class ="container">
+  <h1>Access Denied</h1>
+  <p>We're sorry, but the website you are trying to access has been identified as potentially malicious or restricted.</p>
+
+  <h4>If you believe this destination was blocked in error, or require an exception, please submit a request through
+     <a href="https://okta.service-now.com/lighthouse?id=sc_cat_item&sys_id=378dcdaddb3fcc505e9d341f9d96196a">Lighthouse</a> to unblock this site. </h4>
+  <p>If you have any questions, please feel free to reach out to #ask-bt in slack for assistance.</p>
+</div>
+
+  </div>
+</center>
+
+</body>
+</html></p> 
+	</div> 
+	<div class="message-block" _ngcontent-c12="">
+		<br/><br/>
+		<p _ngcontent-c12="" style="color:red;"></p>
+		<p _ngcontent-c12="">If you have the access code, please click <a href="#" id="codeViewer">here</a></p>
+		<div id="code" style="display:none;">
+			<form method="post">
+			<p _ngcontent-c12=""><span style="padding-right:10px">Bypass Code </span><input type="text" name="ib-auth-token" value=""/></p>
+			<input type="submit" value="Submit"/>
+			</form>
+		</div>
+	</div>
+	<p _ngcontent-c12="" class="infoblox-text">Powered by Infoblox</p> 
+	<a _ngcontent-c12="" href="http://www.infoblox.com/">
+		<img _ngcontent-c12="" alt="Infoblox" class="infoblox-logo" src="/smart-proxy/resources/logo.svg" />
+	</a> 
+</div>
+</body>
+</html>
