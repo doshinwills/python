@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10645188-4667-4930-a19f-1b6766282081" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/01-basics/000-venv.sh" beforeDir="false" afterPath="$PROJECT_DIR$/01-basics/000-venv.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2fKg9nsFgvku4sXh4xYQD2sUJTg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in 01-cc-validateTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 02-cc-validateTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-date.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-regex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-thread-way-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-thread.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01.dbop.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.01.sample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01.url-lib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-log-to-file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-read.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-sleep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-user-defined-exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-assert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-file-exist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-log-exceptions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-thread-way-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-time-perf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-pickle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-thread-way-3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-file-server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-match-case.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-multi-thread.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-un-pickle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-file-client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-more-fun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-thread-sync.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07-more-fun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07-thread-sema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08-thread-wait-notify.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15-interface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cc-validate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validate.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/doshinwills/learning/AI/python/my-python-learn/16-unit-test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/16-unit-test" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/01-basics" />
+      <recent name="$PROJECT_DIR$/02-flow-control" />
+      <recent name="$PROJECT_DIR$/14-networking" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests in 01-cc-validateTest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="my-python-learn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-unit-test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/16-unit-test/01-cc-validateTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in 01-cc-validateTest.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10645188-4667-4930-a19f-1b6766282081" name="Changes" comment="" />
+      <created>1713555034380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713555034380</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/09-logging/01-basics.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/15-database/01.dbop.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
